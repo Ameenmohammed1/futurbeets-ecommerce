@@ -1,0 +1,217 @@
+.ProductDetailsParent{
+    width: 100%;
+    /* height: 100vh; */
+    background: #ffffff;
+    display: flex;
+}
+.ProductDetailsParent .productImages{
+    width: 50%;
+    height: 100vh;
+    /* background: #000; */
+}
+.ProductDetailsParent .productDetails{
+    width: 50%;
+    height: 100vh;
+    overflow-y: scroll;
+    /* background: #000; */
+}
+
+.productImages .mainImage{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  /**********************/
+  
+.mainProductSlider {
+    height: 80%;
+    width: 90%;
+    margin-top: 15px;
+  }
+  
+  .smallImage {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+
+    color: #979fff;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+
+  color: #979fff;
+}
+  
+  .smallImage .swiper-slide {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+  }
+  
+  .smallImage .swiper-slide-thumb-active {
+    opacity: 0.6;
+  }
+  
+ .smallImage .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .swiperThubs{
+    width: 90%;
+    height: 20%;
+    background:transparent;
+    margin: auto;
+    margin-top: 7px;
+  }
+
+ .productDetails .mainDetails{
+    width: 100%;
+    height: 45%;
+    padding: 40px;
+
+  }
+
+  .mainDetails h1{
+    font-size: 30px;
+    margin-bottom:5px;
+  }
+
+  .mainDetails .shortDetails{
+    font-size: 14px;
+    width: 60%;
+    margin-bottom: 5px;
+  }
+
+  .mainDetails .rating{
+    margin-bottom: 5px;
+  }
+  .rating i{
+    font-size: 11px;
+    color: rgb(250, 190, 8);
+    margin-right: 2px;
+  }
+
+  .mainDetails .price{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(81, 155, 7);
+  }
+
+  .price .sp1{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #000;
+  }
+  .price .sp2{
+    color: #ff0000;
+   font-size: 25px;
+    display: inline-block;
+  }
+
+  .mainDetails .btns{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .btns a{
+
+    padding: 6px 10px;
+  }
+
+  .btns a:nth-child(1){
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #000;
+    transition: 1s;
+  }
+
+  .btns a:nth-child(1):hover{
+background: #000;
+color: #fff;
+  }
+
+  .btns a:nth-child(2){
+    background: #ff7f0f;
+    color: #fff;
+    border-radius: 20px;
+
+    transition: 1s;
+  }
+
+  .btns a:nth-child(2):hover{
+    background: #e1710f;
+  }
+
+
+  .productDetails::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .chooses{
+    width: 100%;
+    height: 20%;
+    padding: 40px;
+    padding-top: 20px;
+  }
+
+  .chooses h1{
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .chooses .SBtn{
+    padding: 6px 20px;
+    border-radius: 20px;
+    border:  1px solid #000000;
+    background: transparent;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .Discription{
+    width: 100%;
+    padding: 50px;
+    padding-top: 0;
+
+  }
+
+
+  @media screen and (max-width:670px) {
+    .ProductDetailsParent{
+    flex-direction: column;
+        display: flex;
+    }
+    .ProductDetailsParent .productImages{
+        width: 100%;
+        height: 45vh;
+    }
+    .ProductDetailsParent .productDetails{
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .swiperThubs{
+        height: 25%;
+        z-index: 5;
+       
+      }
+      .mainProductSlider {
+        height: 65%;
+      }
+  }

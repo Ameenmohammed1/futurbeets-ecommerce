@@ -1,0 +1,13 @@
+.adminProducts{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.adminProducts .addProduct{
+    margin: 40px;
+    margin-bottom: 10px;
+    padding: 9px 10px;
+    border: none;
+    background: #10ff00;
+    border-radius: 5px;
+}

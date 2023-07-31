@@ -1,0 +1,36 @@
+.brandParentDiv {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 0px;
+  padding-bottom: 35px;
+}
+
+.brandParentDiv .brands {
+  width: 95%;
+
+  margin-top: 25px;
+}
+
+.brands .brand {
+  width: 205px;
+  height: 95px;
+  background:#e7e7e7; /*f9f9f9*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.brand .brandImage{
+    width: 180px;
+    height: 90px;
+}
+
+@media screen and (max-width:760px) {
+    .brandParentDiv {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 35px;
+      }
+}

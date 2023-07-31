@@ -1,0 +1,74 @@
+.OrderParent{
+    width: 100%;
+
+    padding: 40px;
+}
+
+.OrderParent h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.orders .order{
+width: 80%;
+height: 110px;
+/* border-top:1px solid #000 ; */
+border-bottom:1px solid #000 ;
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.order .Oimg{
+    height: 90px;
+}
+
+.order .details{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.details .oDetail{
+    margin-left: 10px;
+}
+
+.oDetail h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.details .oDetailTwo .price{
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+}
+
+
+@media screen and (max-width:670px) {
+    .OrderParent{
+       
+        padding: 30px 20px;
+    }
+    .orders .order{
+        width: 100%;
+        }
+        .order .details{
+           flex-direction: column;
+        }
+        .details .oDetailTwo{
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+        .oDetail h2{
+            font-size: 17px;
+            margin-bottom: 3px;
+           
+        }
+        .details .oDetailTwo .price{
+            margin-bottom: 3px;
+            font-size: 16px;
+            color: rgb(97, 173, 21);
+            
+        }
+}

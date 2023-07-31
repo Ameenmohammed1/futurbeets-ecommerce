@@ -1,0 +1,80 @@
+.DashboardParent {
+  width: 100%;
+}
+
+.DashboardParent .dashborad {
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 40px;
+}
+.dashborad .filter {
+  margin: 10px 10px;
+}
+
+.filter select {
+  padding: 6px 10px;
+  outline: none;
+}
+.dashborad::-webkit-scrollbar {
+  width: 0px;
+}
+
+.dashborad .introAnalysisParent {
+  display: flex;
+  gap: 20px;
+}
+
+.dashborad .revenue {
+  width: 100%;
+  height: 95vh;
+  margin-top: 30px;
+}
+
+.dashborad .subChart {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.subChart .productData {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.subChart .users {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.dashborad .topProducts{
+  width: 100%;
+  height: 110vh;
+}
+@media screen and (max-width: 670px) {
+  .DashboardParent .dashborad {
+    padding: 10px;
+  }
+  .dashborad .introAnalysisParent {
+    flex-direction: column;
+  }
+  .dashborad .revenue {
+    height: 46vh;
+  }
+  .dashborad .subChart {
+    flex-direction: column;
+  }
+  .subChart .productData {
+    width: 100%;
+    height: 50%;
+  }
+  .subChart .users {
+    width: 100%;
+    height: 50%;
+  }
+}

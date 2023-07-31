@@ -1,0 +1,46 @@
+.ProfileParent{
+    width: 38%;
+  
+    padding: 40px;
+}
+
+.ProfileParent h1{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+.ProfileParent .acdtl{
+    /* display: flex; */
+    margin-top: 20px;
+
+    font-size: 22px;
+}
+
+.acdtl p{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.acdtl input{
+    outline: none;
+    width:100%;
+    height: 30px;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.ProfileParent button{
+    padding: 5px 30px;
+    border: none;
+    background: #0be851;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+@media screen and (max-width:670px) {
+    .ProfileParent{
+        width: 100%;
+        padding: 30px;
+    }
+}
